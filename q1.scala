@@ -28,10 +28,9 @@ def mergeInventories(inventory1: Map[Int, (String, Int, Double)], inventory2: Ma
     if (mergedInventory.contains(id)) {
       // If the item already exists in mergedInventory, update it
       val (name1, quantity1, price1) = mergedInventory(id)
-      val updatedName = if (name1.nonEmpty) name1 else name2
       val updatedQuantity = quantity1 + quantity2
       val updatedPrice = price1 max price2
-      mergedInventory += (id -> (updatedName, updatedQuantity, updatedPrice))
+      mergedInventory += (id -> (name1, updatedQuantity, updatedPrice))
     } else {
       // If the item does not exist in mergedInventory, add it
       mergedInventory += (id -> (name2, quantity2, price2))
