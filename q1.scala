@@ -40,6 +40,17 @@ def mergeInventories(inventory1: Map[Int, (String, Int, Double)], inventory2: Ma
   mergedInventory
 }
 
+def checkProductExistence(inventory: Map[Int, (String, Int, Double)], productId: Int): Unit = {
+  // Try to get the product details using the productId
+  inventory.get(productId) match {
+    // If the product exists, print its details
+    case Some((name, quantity, price)) =>
+      println(s"Product ID: $productId, Name: $name, Quantity: $quantity, Price: $$price")
+    // If the product does not exist, print a message saying so
+    case None =>
+      println(s"Product with ID $productId does not exist.")
+  }
+}
 
 
 def main(args: Array[String]): Unit = {
