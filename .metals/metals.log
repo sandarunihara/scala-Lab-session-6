@@ -1,0 +1,110 @@
+2024.07.28 19:17:53 INFO  Started: Metals version 1.3.4 in folders 'E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@39d4faa1]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@42ad06be]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@39d4faa1]
+2024.07.28 19:17:53 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+Jul 28, 2024 7:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jul 28, 2024 7:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2024.07.28 19:17:55 INFO  no build target found for E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.28 19:18:03 INFO  Running List(C:\Users\User\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6)
+2024.07.28 19:18:04 INFO  Attempting to connect to the build server...
+2024.07.28 19:18:04 INFO  Running BSP server List(C:\Users\User\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\.scala-build\ide-options-v2.json, --json-launcher-options, E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\.scala-build\ide-launcher-options.json, --envs-file, E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\.scala-build\ide-envs.json, E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6)
+2024.07.28 19:18:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.28 19:18:06 INFO  BSP server: Starting compilation server
+2024.07.28 19:18:21 INFO  time: Connected to build server in 17s
+2024.07.28 19:18:21 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.28 19:18:21 INFO  time: Imported build in 0.23s
+2024.07.28 19:18:21 INFO  running doctor check
+2024.07.28 19:18:21 INFO  java targets: scala-Lab-session-6_f4dd477a3a-test, scala-Lab-session-6_f4dd477a3a
+2024.07.28 19:18:22 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:18:26 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 4.49s
+2024.07.28 19:18:27 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.28 19:18:31 INFO  time: indexed workspace in 9.49s
+Jul 28, 2024 7:18:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+2024.07.28 19:18:52 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:18:55 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 2.9s
+2024.07.28 19:18:55 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\q1.scala
+2024.07.28 19:18:56 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\q1.scala
+2024.07.28 19:18:57 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\q1.scala
+2024.07.28 19:18:58 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:18:58 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\q1.scala
+2024.07.28 19:19:01 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 3s
+2024.07.28 19:19:04 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:19:07 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 2.69s
+Jul 28, 2024 7:19:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+2024.07.28 19:19:26 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:19:26 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.43s
+2024.07.28 19:19:28 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:19:28 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.19s
+2024.07.28 19:19:37 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:19:37 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.68s
+2024.07.28 19:19:40 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:19:40 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.87s
+2024.07.28 19:19:58 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:19:58 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.56s
+2024.07.28 19:20:04 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:20:06 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 2.06s
+2024.07.28 19:20:07 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:20:07 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.73s
+2024.07.28 19:20:10 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:20:10 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.81s
+2024.07.28 19:20:12 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:20:12 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.8s
+2024.07.28 19:24:37 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:24:37 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.83s
+2024.07.28 19:24:40 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:24:40 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.29s
+2024.07.28 19:37:58 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:38:01 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 2.17s
+2024.07.28 19:38:06 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:38:06 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.8s
+2024.07.28 19:38:08 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:38:09 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 1.11s
+2024.07.28 19:38:12 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:38:12 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.74s
+2024.07.28 19:38:20 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:38:20 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.31s
+2024.07.28 19:38:28 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:38:28 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.21s
+2024.07.28 19:38:30 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:38:30 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.63s
+Jul 28, 2024 7:38:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 531
+Jul 28, 2024 7:38:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 534
+2024.07.28 19:38:34 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:38:34 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.38s
+2024.07.28 19:38:35 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:38:35 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.78s
+2024.07.28 19:45:51 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:45:51 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.96s
+2024.07.28 19:45:54 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:45:54 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.5s
+2024.07.28 19:45:57 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:45:57 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.91s
+2024.07.28 19:46:04 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:46:04 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.98s
+2024.07.28 19:46:33 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:46:33 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.77s
+2024.07.28 19:46:38 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+Jul 28, 2024 7:46:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 697
+2024.07.28 19:46:40 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 1.47s
+2024.07.28 19:46:42 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:46:42 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.3s
+2024.07.28 19:46:44 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:46:44 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.4s
+2024.07.28 19:46:48 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:46:48 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.65s
+2024.07.28 19:46:50 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:46:50 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.82s
+2024.07.28 19:46:51 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:46:51 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.29s
+Jul 28, 2024 7:47:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
