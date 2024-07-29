@@ -15,24 +15,19 @@ def isInventoryEmpty(inventory: Map[Int, (String, Int, Double)]): Boolean = {
 
 
 def mergeInventories(inventory1: Map[Int, (String, Int, Double)], inventory2: Map[Int, (String, Int, Double)]): Map[Int, (String, Int, Double)] = {
-  // Create an empty map to store the merged inventory
   var mergedInventory = Map[Int, (String, Int, Double)]()
 
-  // Add all items from inventory1 to the mergedInventory
   for ((id, (name, quantity, price)) <- inventory1) {
     mergedInventory += (id -> (name, quantity, price))
   }
 
-  // Add or update items from inventory2 in the mergedInventory
   for ((id, (name2, quantity2, price2)) <- inventory2) {
     if (mergedInventory.contains(id)) {
-      // If the item already exists in mergedInventory, update it
       val (name1, quantity1, price1) = mergedInventory(id)
       val updatedQuantity = quantity1 + quantity2
       val updatedPrice = price1 max price2
       mergedInventory += (id -> (name1, updatedQuantity, updatedPrice))
     } else {
-      // If the item does not exist in mergedInventory, add it
       mergedInventory += (id -> (name2, quantity2, price2))
     }
   }
