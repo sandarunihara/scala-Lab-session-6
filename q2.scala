@@ -5,7 +5,6 @@ def getStudentInfo: (String, Int, Int, Double, Char) = {
     var name = ""
     var marks = 0
     var totalMarks = 0
-    while (!isValid) {
       println("Enter student name:")
       name = readLine()
       println("Enter marks:")
@@ -15,8 +14,8 @@ def getStudentInfo: (String, Int, Int, Double, Char) = {
       
       val validation = validateInput(name, marks, totalMarks)
       isValid = validation._1
-      if (!isValid) println(s"Error: ${validation._2.getOrElse("Invalid input")}")
-    }
+      if (!isValid) println(s"Error: ${validation._2}")
+    
     
     val percentage = (marks.toDouble / totalMarks) * 100
     val grade = percentage match {
@@ -60,7 +59,7 @@ def getStudentInfo: (String, Int, Int, Double, Char) = {
       if (isValid) {
         record = (name, marks, totalMarks, percentage, grade)
       } else {
-        println(s"Error: ${validation._2.getOrElse("Invalid input")}")
+        println(s"Error: ${validation._2}")
       }
     }
     record
