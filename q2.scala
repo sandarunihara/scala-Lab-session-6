@@ -66,7 +66,6 @@ def getStudentInfo: (String, Int, Int, Double, Char) = {
   }
 
 def main(args: Array[String]): Unit = {
-
   val studentRecord = getStudentInfoWithRetry
   printStudentRecord(studentRecord)
 
