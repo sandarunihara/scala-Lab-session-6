@@ -108,3 +108,63 @@ WARNING: Unmatched cancel notification for request id 697
 2024.07.28 19:46:51 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.29s
 Jul 28, 2024 7:47:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2024.07.28 19:50:10 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:50:10 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.9s
+2024.07.28 19:50:11 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\q1.scala
+2024.07.28 19:50:12 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\q1.scala
+2024.07.28 19:50:13 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\q1.scala
+Jul 28, 2024 7:50:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 859
+2024.07.28 19:50:14 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\q1.scala
+2024.07.28 19:50:14 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\q1.scala
+2024.07.28 19:50:15 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:50:15 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.77s
+Jul 28, 2024 7:50:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 883
+2024.07.28 19:56:05 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:56:05 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.77s
+2024.07.28 19:57:58 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:57:59 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 1.01s
+2024.07.28 19:58:04 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:58:04 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.73s
+Jul 28, 2024 7:58:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 971
+2024.07.28 19:58:12 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:58:12 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.18s
+2024.07.28 19:58:13 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:58:13 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.48s
+2024.07.28 19:58:19 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:58:19 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.18s
+2024.07.28 19:58:24 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:58:24 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.54s
+Jul 28, 2024 7:59:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1089
+2024.07.28 19:59:08 INFO  compiling scala-lab-session-6_f4dd477a3a (1 scala source)
+2024.07.28 19:59:08 INFO  time: compiled scala-Lab-session-6_f4dd477a3a in 0.59s
+2024.07.28 21:02:58 INFO  Shutting down server
+2024.07.28 21:02:58 INFO  shutting down Metals
+2024.07.28 21:02:58 INFO  Shut down connection with build server.
+2024.07.28 21:02:58 INFO  Exiting server
+2024.07.29 10:11:59 INFO  Started: Metals version 1.3.4 in folders 'E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@5d948863]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@9cea733]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@5d948863]
+2024.07.29 10:12:00 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.29 10:12:03 INFO  no build target found for E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.29 10:12:04 INFO  Attempting to connect to the build server...
+2024.07.29 10:12:04 INFO  Running BSP server List(C:\Users\User\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\.scala-build\ide-options-v2.json, --json-launcher-options, E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\.scala-build\ide-launcher-options.json, --envs-file, E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\.scala-build\ide-envs.json, E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6)
+2024.07.29 10:12:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\2nd Year\Semester 1\FC\practicals\session 6\scala-Lab-session-6\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.29 10:12:09 INFO  BSP server: Starting compilation server
+2024.07.29 10:12:16 INFO  time: Connected to build server in 12s
+2024.07.29 10:12:16 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.29 10:12:16 INFO  time: Imported build in 0.2s
+2024.07.29 10:12:17 INFO  running doctor check
+2024.07.29 10:12:17 INFO  java targets: scala-Lab-session-6_f4dd477a3a-test, scala-Lab-session-6_f4dd477a3a
+2024.07.29 10:12:21 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.29 10:12:23 INFO  time: indexed workspace in 6.24s
+2024.07.29 11:04:53 INFO  Shutting down server
+2024.07.29 11:04:53 INFO  shutting down Metals
+2024.07.29 11:04:53 INFO  Shut down connection with build server.
+2024.07.29 11:04:53 INFO  Exiting server
